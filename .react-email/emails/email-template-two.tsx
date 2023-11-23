@@ -83,7 +83,7 @@ export const NotionMagicLinkEmail = () => {
                   objectFit: "contain",
                   position: "relative",
                   zIndex: 10,
-                  right: "93px",
+                  right: "119px",
                 }}
                 alt="Notion's Logo"
               />
