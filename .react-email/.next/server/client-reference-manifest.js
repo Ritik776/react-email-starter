@@ -129,12 +129,41 @@ self.__RSC_MANIFEST={
         "name": "default",
         "async": false
       }
+    },
+    "(app-client)/./src/app/preview/[slug]/preview.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/preview/[slug]/preview.tsx",
+        "chunks": [
+          "app/preview/[slug]/page:app/preview/[slug]/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/preview/[slug]/preview.tsx",
+        "chunks": [
+          "app/preview/[slug]/page:app/preview/[slug]/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/preview/[slug]/preview.tsx",
+        "chunks": [
+          "app/preview/[slug]/page:app/preview/[slug]/page"
+        ],
+        "name": "default",
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "C:\\Users\\chc\\Music\\react-email-starter\\.react-email\\src\\app\\page": [
       "static/css/app/page.css"
+    ],
+    "C:\\Users\\chc\\Music\\react-email-starter\\.react-email\\src\\app\\preview\\[slug]\\page": [
+      "static/css/app/preview/[slug]/page.css"
     ],
     "C:\\Users\\chc\\Music\\react-email-starter\\.react-email\\src\\app\\layout": [
       "static/css/_app-client_src_styles_globals_css.css",
@@ -338,6 +367,7 @@ self.__RSC_MANIFEST={
     "name": "",
     "chunks": [
       "static/css/app/page.css",
+      "static/css/app/preview/[slug]/page.css",
       "static/css/_app-client_src_styles_globals_css.css"
     ]
   },
@@ -346,6 +376,7 @@ self.__RSC_MANIFEST={
     "name": "",
     "chunks": [
       "static/css/app/page.css",
+      "static/css/app/preview/[slug]/page.css",
       "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arg-7ffe8b.css"
     ]
   },
@@ -369,6 +400,30 @@ self.__RSC_MANIFEST={
     "id": "(app-client)/./src/app/home.tsx",
     "chunks": [
       "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\chc\\Music\\react-email-starter\\.react-email\\src\\app\\preview\\[slug]\\preview.tsx": {
+    "id": "(app-client)/./src/app/preview/[slug]/preview.tsx",
+    "chunks": [
+      "app/preview/[slug]/page:app/preview/[slug]/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\chc\\Music\\react-email-starter\\.react-email\\src\\app\\preview\\[slug]\\preview.tsx#": {
+    "id": "(app-client)/./src/app/preview/[slug]/preview.tsx",
+    "chunks": [
+      "app/preview/[slug]/page:app/preview/[slug]/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\chc\\Music\\react-email-starter\\.react-email\\src\\app\\preview\\[slug]\\preview.tsx#default": {
+    "id": "(app-client)/./src/app/preview/[slug]/preview.tsx",
+    "chunks": [
+      "app/preview/[slug]/page:app/preview/[slug]/page"
     ],
     "name": "default",
     "async": false
