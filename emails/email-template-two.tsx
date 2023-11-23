@@ -83,7 +83,7 @@ export const NotionMagicLinkEmail = () => {
                   objectFit: "contain",
                   position: "relative",
                   zIndex: 10,
-                  right: "93px",
+                  right: "119px",
                 }}
                 alt="Notion's Logo"
               />
@@ -99,7 +99,7 @@ export const NotionMagicLinkEmail = () => {
             >
               {" "}
               <Img
-                src={`${baseUrl}/static/svgs/wobble-bottle.png`}
+                src={`${baseUrl}/static/svgs/wobble-bottle-img.png`}
                 style={{
                   width: 550,
                   height: 650,
